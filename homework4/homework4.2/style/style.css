@@ -1,0 +1,30 @@
+*{
+    padding: 2px;
+    margin: 6px;
+    box-sizing: border-box;
+}
+
+.link1{
+    color: blue;
+
+}
+.link1:hover{
+    color: #000;
+    text-decoration: underline;
+}
+.link2{
+    color: red;
+    text-decoration:  underline;
+}
+.link2:hover{
+    color: blue;
+    text-decoration: line-through;
+}
+
+.link3:hover{
+    color:  red;
+    text-decoration: overline;
+}
+.link3{
+    color: black;
+}

@@ -1,0 +1,26 @@
+h1, h2{
+    margin: 5px;
+    padding: 10px;
+    font-size: 30px;
+    }
+
+li{
+    font-size: 20px;
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td, th{
+    border: 2px solid black;
+    text-align: center;
+    padding: 2px;
+}
+img{
+    width: 100px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+

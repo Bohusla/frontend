@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ 
+}
+
+h1{
+    margin: 2px;
+    padding: 8px;
+    font-size: 40px bold;
+}
+
+.fon{
+
+    width: 600px;
+ 
+    
+    margin: 50px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4CDjT30mCRijyxDOirTh-C0vytD3mKAyTas_bjQwCPYYdmOMCPrLkdpb-Kx9mVbkWJjQ&usqp=CAU');
+    background-position:  bottom right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ 
+}
+
+p{ 
+    margin: 1px;
+    padding: 4px;
+    font-size: 20px;
+}
