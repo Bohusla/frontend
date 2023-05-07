@@ -1,0 +1,42 @@
+
+.wrapper{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    margin: 0px auto;
+    border: 1px solid rgb(3, 227, 3);
+    background-color:rgb(3, 227, 3) ;
+}
+
+/* 8 */
+/* .elem1{
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    left: 100px;
+    top: 100px
+
+} */
+
+/* 2 */
+.elem1{
+  border: 1px solid white;
+  background-color: white;
+  width: 100px;
+  height:  100px;
+  position:absolute;
+  left: 50px;
+  top: 50px;
+
+}
+.elem2{
+    border: 1px solid white;
+    background-color: white;
+    width: 100px;
+    height:  100px;
+    position:absolute;
+    right: 50px;
+    bottom: 50px;
+  
+  }
