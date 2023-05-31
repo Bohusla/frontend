@@ -1,0 +1,57 @@
+h1{
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+    color: #9336b8;
+}
+h2{
+    text-align: center;
+    color: #9336b8;
+}
+a{
+    text-decoration: none;
+    color: #9336b8;
+    font-size: large;
+
+}
+
+
+a:hover{
+    text-decoration: lightslategray;
+    color: rgb(239, 193, 236);
+}
+body{
+    display: grid;
+    grid-template-areas: 
+    "Header Header Header"
+    "Nav Article Ads" 
+    "Footer Footer Footer";
+    grid-template-rows: 80px 1fr 60px;
+    grid-template-columns: 20%  1fr 10%;
+    gap: 10px;
+    height: 100vh;
+    margin: 0;
+}
+
+#mainHeader{
+    grid-area: Header;
+}
+#mainNav{
+    grid-area: Nav;
+}
+#mainArticle{
+    grid-area: Article;
+}
+#mainAdd{
+    grid-area: Ads;
+}
+#pageFooter{
+    grid-area: Footer;
+}
+
+header, nav, article, div, footer{
+    background-color: rgb(223, 242, 230);
+    padding: 20px;
+   
+
+}
