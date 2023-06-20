@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin  Form</title>
+    <link rel="stylesheet" href="./style/app.css">
+    <link rel="stylesheet" href="./style/signin.css">
+
+</head>
+<body>
+    <a href="/">Go back</a>
+
+    <form>
+        <div class="container">
+          <h2>Login</h2>
+          <p>Please fill in this form to login</p>
+          <hr />
+      
+          <label for="username"><b>User name</b></label>
+          <input type="text" placeholder="Enter username" id="username" required />
+      
+          <label for="password"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" id="password" required />
+                
+    
+          <hr />      
+          
+          <button type="button" class="login" onclick="signIn(event)">
+            Ok
+          </button>
+        </div>     
+        
+      </form>
+    <script src="./script/app.js"></script>
+    <script src="./script/signin.js"></script>
+
+</body>
+</html>
